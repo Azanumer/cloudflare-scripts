@@ -9,6 +9,7 @@ Small Bash helpers for the Cloudflare v4 API — no dashboard needed.
 | `purge-cache.sh` | Purge cache for specific URLs, or `--all` for the whole zone |
 | `dns-add-txt.sh` | Add a TXT record (SPF, DKIM, domain verification) |
 | `list-zones.sh` | List zone names + IDs for your token |
+| `waf-rules.sh` | Deploy WAF custom rules from a JSON file (`list` / `apply --file` / `--dry-run` / `clear`); see `rules.example.json` |
 
 ## Setup
 
